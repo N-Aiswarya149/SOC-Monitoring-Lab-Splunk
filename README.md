@@ -34,7 +34,15 @@ SOC Monitoring Dashboard
 - Track user account creation events.
 - Visualize security events through dashboards.
 - Gain hands-on SOC analyst experience.
+## Skills Demonstrated
 
+- SIEM Monitoring
+- Log Analysis
+- Splunk SPL
+- Security Event Investigation
+- Threat Detection
+- Dashboard Creation
+- Windows Event Analysis
 ## Environment Setup
 
 ### Operating Systems
