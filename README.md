@@ -17,7 +17,14 @@ Splunk Enterprise (Kali Linux)
                 ▼
 SOC Monitoring Dashboard
 ```
+## Data Flow
 
+1. Windows 10 generates Security, System, and Application logs.
+2. Splunk Universal Forwarder collects the logs.
+3. Logs are forwarded to Splunk Enterprise running on Kali Linux.
+4. Splunk indexes and stores the events.
+5. SPL queries are used to investigate security events.
+6. Dashboards visualize authentication and account activity.
 
 ## Objectives
 
