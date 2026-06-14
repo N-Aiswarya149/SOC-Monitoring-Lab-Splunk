@@ -3,6 +3,21 @@
 ## Project Overview
 
 Designed and implemented a Security Operations Center (SOC) monitoring lab using Splunk Enterprise to collect, analyze, and visualize Windows security events. The project focuses on real-time security monitoring, threat detection, user activity analysis, and dashboard-based incident visibility.
+## Architecture
+```text
+Windows 10
+(Security, System, Application Logs)
+                │
+                ▼
+Splunk Universal Forwarder
+                │
+                ▼
+Splunk Enterprise (Kali Linux)
+                │
+                ▼
+SOC Monitoring Dashboard
+```
+
 
 ## Objectives
 
